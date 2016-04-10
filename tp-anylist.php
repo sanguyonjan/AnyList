@@ -19,8 +19,6 @@ if ( !defined('ABSPATH') ) {
 }
 
 
-
-
 // Creating the widget 
 class tp_anylist extends WP_Widget {
 
@@ -33,7 +31,7 @@ parent::__construct(
 __('Anylist Widget', 'tp_anylist_domain'), 
 
 // Widget description
-array( 'description' => __( 'Anylist Widget to create list of anything with dashicons', 'tp_anylist_domain' ), ) 
+array( 'description' => __( 'Anylist Widget to create list of anything with dashicons pre-installed.', 'tp_anylist_domain' ), ) 
 );
 }
 
